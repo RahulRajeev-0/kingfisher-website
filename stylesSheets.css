@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    font-family: goodhome,Arial,sans-serif;
+    z-index: 1;
+}
+.header_section2{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+.header_top_div{
+    height: 40px;
+    width: 700px;
+    position: relative;
+    left: 350px;
+    display: flex;
+    justify-content: right;
+    text-align:center;
+}
+.header_top_div a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-left: 60px;
+
+}
+.header_top_div button{
+    background-color: #fff;
+    border: none;
+    color: grey;
+}
+.header_bottom_div{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 1000px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_bottom_div a{
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.header_bottom_div a:hover{
+    border-bottom: 5px solid red;
+    transition: 0.1s;
+}
+.page1{
+    padding-top: 80px;
+    height: 730px;
+    width: 100%;
+}
+.page1_text{
+    position: relative;
+    bottom: 450px;
+    left: 130px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+   
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 600px;
+    
+
+}
+.page2{
+    height: 500px;
+    width: 100%;
+
+}
+.latest_news_article{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_news{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.img_news div{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.img_news img:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+.date{
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+.img_news a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.page3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+}
+.page3 img:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+.page3 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.page3 button{
+    background-color: #fff;
+    border: none;
+    color: gray;
+}
+.page4{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #e04e39;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    overflow: hidden;
+}
+.page4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.page5{
+    display: flex;
+    flex-direction: column;
+    
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.page5_about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    width: 300px;
+}
+.page5_2portion{
+    display: flex;
+    justify-content: space-evenly;
+    height: 560px;
+    width: 100%;
+}
+.page5_sub_div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 15px;
+    font-weight:lighter;
+    line-height: 1.2;
+    width: 280px;
+
+}
+.page5_sub_div a{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.page5_sub_div img:hover{
+    transform: scale(1.03);
+    transition: .5s;
+}
+.page6{
+    position: absolute;
+    height: 400px;
+    width: 100%;   
+    
+}
+.page6_text{
+    height: 300px;
+    width: 600px;
+    color: white;
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.page6_text a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.page7{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 400px;
+    height: 400px;
+    width: 100%;
+}
+.page7_img{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.page7 p{
+    padding-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.page7_social{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.div1{background-color: aqua;
+height: 80px;
+width: 150px;
+}
+.footer_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 380px;
+    height: 500px;
+    width: 100%;
+    background-color:#323c40;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+}
+.footer_top div{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 400px;
+    width: 250px;
+}
+.footer_top a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+.footer_top p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+    border-top: 3px solid gray;
+    
+}
+.footer_left {
+    display: flex;
+    flex-direction: column;
+
+    height: 100px;
+    width: 60%;
+}
+.sit{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sit a{
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+     
+}
+.company p{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+
+}
+.footer_right p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
